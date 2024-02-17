@@ -25,6 +25,9 @@ return (
               <li> <Link  to="about"  smooth={true}  duration={500} >
         ABOUT
       </Link></li>
+      <li><Link  to="prof"  smooth={true}  duration={500} >
+        PROFICIENCY
+      </Link></li>
               <li> <Link  to="skills"  smooth={true}  duration={500} >
         SKILLS
       </Link></li>
@@ -34,6 +37,7 @@ return (
               <li><Link  to="contact"  smooth={true}  duration={500} >
         CONTACT
       </Link></li>
+      
           </ul>
       
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -46,6 +50,9 @@ return (
       </Link></li>
               <li className='py-6 text-4xl'><Link onClick={handleClick} to="about"  smooth={true}  duration={500} >
         ABOUT
+      </Link></li>
+      <li className='py-6 text-4xl'><Link onClick={handleClick} to="prof"  smooth={true}  duration={500} >
+      PROFICIENCY
       </Link></li>
               <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills"  smooth={true}  duration={500} >
         SKILLS
@@ -100,11 +107,3 @@ return (
 }
 
 export default Navbar
-
-echo "# portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/niganths/portfolio.git
-git push -u origin main
