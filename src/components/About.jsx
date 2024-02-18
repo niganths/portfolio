@@ -16,7 +16,7 @@ return (
         <p>Hi. I'm NIGANTH S, nice to meet you. Please take a look around.</p>
         </div>
         <div>
-        <p>"Passionate about technology and aspiring to delve into the world web technologies. Currently immersed in studying and actively developing my skills in the MERN stack. Eager to take on challenges, expand my knowledge, and contribute to innovative solutions. 🚀💻 Ready to embrace the journey of growth and learning. #TechEnthusiast #MERNStackDeveloper #ContinuousLearning"</p>  
+        <p>"Passionate about technology and aspiring to delve into the world web technologies. Currently immersed in studying and actively developing my skills in the MERN stack. Eager to take on challenges, expand my knowledge, and contribute to innovative solutions. 🚀💻 Ready to embrace the journey of growth and learning."</p>  
         </div>
     </div>
 </div>

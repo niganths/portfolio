@@ -1,5 +1,5 @@
 import React, {useState}from 'react';
-import {FaBars,FaTimes,FaGithub,FaLinkedin, FaFacebook} from 'react-icons/fa';
+import {FaBars,FaTimes,FaGithub,FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
@@ -26,13 +26,13 @@ return (
         ABOUT
       </Link></li>
       <li><Link  to="prof"  smooth={true}  duration={500} >
-        PROFICIENCY
+      SKILLS
       </Link></li>
               <li> <Link  to="skills"  smooth={true}  duration={500} >
-        SKILLS
+        TECH & TOOLS
       </Link></li>
               <li><Link  to="work"  smooth={true}  duration={500} >
-        WORK
+        PROJECTS
       </Link></li>
               <li><Link  to="contact"  smooth={true}  duration={500} >
         CONTACT
@@ -93,7 +93,7 @@ return (
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
           <a
             className='flex justify-between items-center w-full text-gray-300'
-            href='https://drive.google.com/file/d/1Gk2J_sywKzyXmcLg_wtmwfMGiQvZhph8/view?usp=sharing'
+            href='https://drive.google.com/file/d/127yGZN2H21RkLsDkulopbqlbVl8OKuOA/view?usp=sharing'
           >
             Resume <BsFillPersonLinesFill size={30} />
           </a>
