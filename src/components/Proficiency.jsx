@@ -14,13 +14,21 @@ const Proficiency = () => {
   ];
 
   return (
-    <div name='prof' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    // <div name='prof' className='w-full h-screen bg-[#0a192f] text-gray-300'>
    
-    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
+    // <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    //     <div>
+    //         <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
             
-        </div>
+    //     </div>
+    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+<div className='flex flex-col justify-center items-center w-full h-full'>
+    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div className='sm:text-right pb-8 pl-4'>
+    <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+        Skills
+        </p>
+    </div>
 
         <div className="mt-6 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-8">
         {skillBars.map((skill, index) => (
@@ -37,6 +45,7 @@ const Proficiency = () => {
           ))}
         </div>
     </div>
+</div>
 </div>
   );
 };
